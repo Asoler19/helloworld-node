@@ -30,7 +30,8 @@ area = 1000000
 gdp = 9999999999 
 Language = tremendous 
 
-INSERT INTO world VALUES (Trumplandia, America, 1,9999999999, tremendous);  
+INSERT INTO world (country)
+   VALUES (Trumplandia); 
 
 6) Which is the SQL clause to filter results before the query is run? 
 
